@@ -9,7 +9,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename = {process.env.adityanaithani.github.io}>
+        <Switch>
+          <Route path = "/" exact component = {Home} />
+          <Route path = "/projects" exact component = {Projects} />
+          <Route path = "/photography" exact component = {Photography} />
+        </Switch>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
