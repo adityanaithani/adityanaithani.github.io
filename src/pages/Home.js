@@ -18,14 +18,14 @@ function Home() {
       </div>
       <div className = "skills">
         <h1> Skills </h1>
-        <ol className = "skilList">
+        <ul className = "skillList">
           <li className = "item" >
             <h2>Frontend</h2>
             <span> 
               React, Java, test, test, test
             </span>
           </li>
-        </ol>
+        </ul>
       </div>
     </div>
   )

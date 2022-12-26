@@ -1,5 +1,16 @@
+@import url(https://fonts.googleapis.com/css2?family=Unbounded:wght@400&display=swap);
+
+@font-face {
+  font-family: 'Coachella';
+  src: local('MADE Coachella Bold'), url(./fonts/coachbold.otf) format('opentype');
+  font-weight: 900;
+}
+
 .App {
   text-align: center;
+  /* background-color: #0F393D; */
+  background: 	linear-gradient(307deg, rgba(15,57,61,1), rgba(22,80,86,1));
+  color: #FFFAD8;
 }
 
 body {

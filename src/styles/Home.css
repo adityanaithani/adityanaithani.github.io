@@ -2,7 +2,7 @@
     width: 100%;
     align-items: center;
     font-family: "Helvetica", sans-serif;
-    color: rgb(44, 48, 49);
+    color: white;
   }
   
   .about {
@@ -13,26 +13,28 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:  rgb(44, 48, 49);;
+    vertical-align: top;
     color: #f0f0f0;
   }
   
   .about h2 {
-    font-family: "Tienne", serif;
+    font-family: "Coachella", serif;
     font-weight: 900;
-    font-size: 80px;
-    color: #88cb83;
-    height: 50px;
+    font-size: 200px;
+    color: #FFFAD8;
+    height: 70px;
+    vertical-align: top;
+    margin-top: 0px;
   }
   
   .about .prompt {
-    width: 40%;
-    font-size: 30px;
-    font-family: "Helvetica", sans-serif;
-    font-weight: 500;
+    width: 100%;
+    font-size: 32px;
+    font-family: "Unbounded",sans-serif;
+    font-weight: 300;
   }
   .prompt svg {
-    font-size: 60px;
+    font-size: 45px;
     margin: 5px;
     color: white;
   }
@@ -47,10 +49,9 @@
   }
   
   .skills h1 {
-    color: rgb(44, 48, 49);;
   }
   
-  .skills .list {
+  .skills .skillList {
     list-style: none;
     width: 60%;
   }
