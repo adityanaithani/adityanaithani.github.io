@@ -18,6 +18,8 @@
     text-decoration: none;
     margin: 20px;
     font-size: 25px;
+    font-weight: 500;
+    font-family: "Helvetica", sans-serif;
 }
 
 .toggleButton {
