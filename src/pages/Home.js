@@ -10,7 +10,7 @@ function Home() {
       <div className = "about">
         <h2> aditya. </h2>
         <div className = "prompt">
-          <p> cs + bio @ umass.</p>
+          <p> cs + bio @ umass amherst.</p>
           <LinkedInIcon />
           <GitHubIcon />
           <EmailIcon />

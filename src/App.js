@@ -10,11 +10,6 @@ function App() {
   return (
     <div className="App">
       <Router basename = {process.env.PUBLIC_URL}>
-        {/* <Switch>
-          <Route path = "/" exact component = {Home} />
-          <Route path = "/projects" exact component = {Projects} />
-          <Route path = "/photography" exact component = {Photography} />
-        </Switch> */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
