@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.836533d4.css",
+    "main.css": "/static/css/main.cbcae0d3.css",
     "main.js": "/static/js/main.3af91b3d.js",
     "static/js/787.785ee4d6.chunk.js": "/static/js/787.785ee4d6.chunk.js",
     "static/media/coachbold.otf": "/static/media/coachbold.fc2a57896657a01c4209.otf",
     "index.html": "/index.html",
-    "main.836533d4.css.map": "/static/css/main.836533d4.css.map",
+    "main.cbcae0d3.css.map": "/static/css/main.cbcae0d3.css.map",
     "main.3af91b3d.js.map": "/static/js/main.3af91b3d.js.map",
     "787.785ee4d6.chunk.js.map": "/static/js/787.785ee4d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.836533d4.css",
+    "static/css/main.cbcae0d3.css",
     "static/js/main.3af91b3d.js"
   ]
 }
