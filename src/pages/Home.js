@@ -7,7 +7,7 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className = "home" >
-      <div className = "about">
+      <div className = "about noselect">
         <h2> aditya. </h2>
         <div className = "prompt">
           <p> cs, bio, photo.</p>
