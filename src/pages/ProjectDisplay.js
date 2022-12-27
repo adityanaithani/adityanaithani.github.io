@@ -7,16 +7,17 @@ import '../styles/ProjectDisplay.css'
 function ProjectDisplay() {
     const { id } = useParams();
     const project = ProjectList[id];
-  return (
-    <div className="projectPage">
-        <h1>{project.name}</h1>
-        <img src={project.image} alt={project.name}/>
-        <p>
-            <b>Skills:</b> {project.skills}
-        </p>
-        <GitHubIcon />
-    </div>
-  )
+    return (
+      <div className="projectPage">
+          <h1>{project.name}</h1>
+          <img src={project.image} alt={project.name}/>
+          <p>
+              <h2><b>Skills:</b> {project.skills}</h2>
+              <h3>{project.description}</h3>
+          </p>
+          <GitHubIcon />
+      </div>
+    )
 }
 
 export default ProjectDisplay

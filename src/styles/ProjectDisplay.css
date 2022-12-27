@@ -18,7 +18,15 @@
   }
   
   .projectPage p {
-    font-size: 40px;
+    font-size: 20px;
+  }
+
+  .projectPage h2 {
+    font-size: 25px;
+  }
+
+  .projectPage h3 {
+    font-size: 20px;
   }
   
   .projectPage svg {

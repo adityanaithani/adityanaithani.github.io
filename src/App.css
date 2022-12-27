@@ -17,8 +17,8 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
-  background-blend-mode: overlay;
-  background: url(./assets/bg.svg),
+  /* background-blend-mode: overlay; */
+  background: /*url(./assets/bg.svg),*/
   linear-gradient(307deg, rgba(9,35,39,1), rgba(15,57,61,1));
   overscroll-behavior: none;
 }

@@ -25,7 +25,7 @@ function Navbar() {
             <ReorderIcon />
           </button>
         </div> 
-        <div className = "links">
+        <div className = "links noselect">
             <NavLink exact activeClassName="active" to = "/"> HOME </NavLink>
             <NavLink exact activeClassName="active" to = "/projects"> CODE </NavLink>
             <NavLink exact activeClassName="active" to = "/photography"> PHOTO </NavLink>
