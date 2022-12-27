@@ -6,6 +6,7 @@ import Photography from './pages/Photography';
 import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ProjectDisplay from './pages/ProjectDisplay';
 
 function App() {
   return (
@@ -15,9 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDisplay />} />
           <Route path="/photography" element={<Photography />} />
           <Route path="/about" element={<About />} />
-
         </Routes>
         <Footer />
       </Router>

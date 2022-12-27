@@ -1,0 +1,28 @@
+.projectPage {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .projectPage h1 {
+    margin-top: 50px;
+    font-size: 35px;
+  }
+  .projectPage img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .projectPage p {
+    font-size: 40px;
+  }
+  
+  .projectPage svg {
+    font-size: 60px;
+  }
+
+

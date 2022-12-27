@@ -10,7 +10,8 @@
   text-align: center;
   /* background-color: #0F393D; */
 	background: linear-gradient(307deg, rgba(9,35,39,1), rgba(15,57,61,1));
-  color: #FFFAD8;
+  color: white;
+  font-family: 'Unbounded', sans-serif;
 }
 
 body {
