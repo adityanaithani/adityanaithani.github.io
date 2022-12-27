@@ -39,8 +39,7 @@
     color: white;
   }
   
-  .skills {
-    font-size: 35px;
+  .intro {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -48,18 +47,26 @@
     align-items: center;
   }
   
-  .skills h1 {
+  .intro h2 {
+    font-size: 30px;
+    font-family: "Coachella", sans-serif;
+  }
+
+  .intro p {
+    font-size: 15px;
+    font-family: "Unbounded", sans-serif;
+    width: 50%;
   }
   
-  .skills .skillList {
-    list-style: none;
-    width: 60%;
+  .glow {
+    text-shadow: 0 0 5px #FFFAD8;
+  }
+
+  .icons {
+    text-decoration: none;
   }
   
-  .list span {
-    font-size: 20px;
-  }
-  
+ 
   @media only screen and (max-width: 600px) {
     .about h2 {
       font-size: 40px;
@@ -71,14 +78,14 @@
       width: 80%;
     }
   
-    .skills {
+    .intro {
       text-align: center;
     }
     .list {
       padding: 0;
     }
   
-    .skills h2 {
+    .intro h2 {
       font-size: 30px;
     }
   }

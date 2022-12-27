@@ -8,24 +8,13 @@ function Home() {
   return (
     <div className = "home" >
       <div className = "about noselect">
-        <h2> aditya. </h2>
+        <h2 className = "glow"> aditya. </h2>
         <div className = "prompt">
           <p> cs, bio, photo.</p>
-          <LinkedInIcon />
-          <GitHubIcon />
-          <EmailIcon />
+          <a href = "https://www.linkedin.com/in/aditya-naithani/" className = "icons"> <LinkedInIcon /> </a>
+          <a href = "https://github.com/adityanaithani" className = "icons"> <GitHubIcon /> </a>
+          <a href = "mailto:aditya0602@gmail.com" className = "icons"> <EmailIcon /> </a>
         </div>
-      </div>
-      <div className = "skills">
-        <h1> Skills </h1>
-        <ul className = "skillList">
-          <li className = "item" >
-            <h2>Frontend</h2>
-            <span> 
-              React, Java, test, test, test
-            </span>
-          </li>
-        </ul>
       </div>
     </div>
   )
