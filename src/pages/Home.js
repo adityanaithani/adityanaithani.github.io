@@ -7,9 +7,9 @@ import '../styles/Home.css';
 function Home() {
   return (
     <div className = "home" >
-      <div className = "about noselect">
-        <h2 className = "glow"> aditya. </h2>
-        <div className = "prompt">
+      <div className = "about">
+        <h2 className = "glow noselect"> aditya. </h2>
+        <div className = "prompt noselect">
           <p> cs, bio, photo.</p>
           <a href = "https://www.linkedin.com/in/aditya-naithani/" className = "icons"> <LinkedInIcon /> </a>
           <a href = "https://github.com/adityanaithani" className = "icons"> <GitHubIcon /> </a>

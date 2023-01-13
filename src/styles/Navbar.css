@@ -27,19 +27,7 @@
   display: inline-block;
   position: relative;
   color: white;
-}
-
-.Navbar a:hover::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  text-decoration: underline;
 }
 
 .toggleButton {
@@ -62,7 +50,12 @@
 }
 
 .active {
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2em;
+  text-decoration-style: solid;
+
 }
 
 #open {
