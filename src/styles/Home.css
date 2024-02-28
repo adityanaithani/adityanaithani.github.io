@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
+  font-weight: 400;
+  font-style: normal;
+}
+
 .home {
     width: 100%;
     align-items: center;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Inter", sans-serif;
     color: white;
   }
   
@@ -18,10 +25,9 @@
   }
   
   .about h2 {
-    font-family: "Coachella", serif;
-    font-weight: 900;
-    font-size: 200px;
-    color: #FFFAD8;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 48px;;
     height: 70px;
     vertical-align: top;
     margin-top: 0px;
@@ -30,7 +36,7 @@
   .about .prompt {
     width: 100%;
     font-size: 32px;
-    font-family: "Unbounded",sans-serif;
+    font-family: "Inter",sans-serif;
     font-weight: 300;
   }
   .prompt svg {
@@ -58,9 +64,9 @@
     width: 50%;
   }
   
-  .glow {
+  /* .glow {
     text-shadow: 0 0 5px #FFFAD8;
-  }
+  } */
 
   .icons {
     text-decoration: none;

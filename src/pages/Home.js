@@ -8,9 +8,9 @@ function Home() {
   return (
     <div className = "home" >
       <div className = "about">
-        <h2 className = "glow noselect"> aditya. </h2>
+        <h2 className = "noselect">Hi, I'm Aditya.</h2>
         <div className = "prompt noselect">
-          <p> cs, bio, photo.</p>
+          {/* <p> cs, bio, photo.</p> */}
           <a href = "https://www.linkedin.com/in/aditya-naithani/" className = "icons"> <LinkedInIcon /> </a>
           <a href = "https://github.com/adityanaithani" className = "icons"> <GitHubIcon /> </a>
           <a href = "mailto:aditya0602@gmail.com" className = "icons"> <EmailIcon /> </a>

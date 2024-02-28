@@ -6,11 +6,18 @@
   font-weight: 900;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
+  font-weight: 400;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
-  /* background-color: #0F393D; */
+  background-color: #1E1E1E;
   color: white;
-  font-family: 'Unbounded', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -18,8 +25,8 @@ body {
   margin: 0;
   height: 100vh;
   /* background-blend-mode: overlay; */
-  background: /*url(./assets/bg.svg),*/
-  linear-gradient(307deg, rgba(9,35,39,1), rgba(15,57,61,1));
+  /* background: url(./assets/bg.svg), */
+  /* linear-gradient(307deg, rgba(9,35,39,1), rgba(15,57,61,1)); */
   overscroll-behavior: none;
 }
 
